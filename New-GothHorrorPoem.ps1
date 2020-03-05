@@ -7,12 +7,12 @@ $properNoun1 = @('Bela Lugosi','Aleister Crowley','Ernest Borgnine','Karen Black
 $adjective1 = @('mewling','screaming','crying','defecating','yelping','flailing','thrashing','shreiking','moaning','obsenities-yelling', 'wildly gesticulating')
 $adjective2 = @('gaping','horrifying','hungry','terryifying','monstrous','sinister','ravaging','horny','dung-smeared','foul-smelling','cheese-filled')
 $adjective3 = @('undead','unalive','gone','undone','dead','nevermore','condemned','deflowered','consumed','vanquished','forgotten')
-$place1 = @('crypt','grave','beyond','land of the living','tomb','beltway','confines of decent poetry','river styx','dawn of the dead','limits of reality','boundaries of bad taste')
+$place1 = @('crypt','grave','beyond','land of the living','tomb','beltway','confines of decent poetry','River Styx','dawn of the dead','limits of reality','boundaries of bad taste')
 $place2 = @('swamp','ground','quagmire','bog','dirt','mud','outhouse toilet','six feet under','litter box','sewers','spitton')
-$participle1 = @('Rotting','Decomposing','Festering','Flatulating','Decaying','Putrifying','Mummifying','Regurgitating','Juggling cats','Feeding the wormd','Pushing up daisies')
+$participle1 = @('Rotting','Decomposing','Festering','Flatulating','Decaying','Putrifying','Mummifying','Regurgitating','Juggling cats','Feeding the worms','Pushing up daisies')
 
 $end = Get-Random $adjective3
 
-"$(get-random $noun1) descend from the $(get-random $noun2) with $(Get-random $adjective1) $(Get-Random $noun3) in their $(Get-Random $adjective2) $(Get-Random $noun3).`
+"$(get-random $noun1) descend from the $(get-random $noun2) with $(Get-random $adjective1) $(Get-Random $noun3) in their $(Get-Random $adjective2) $(Get-Random $noun4).`
 The $(Get-Random $noun5) call to me from beyond the $(Get-Random $place1). $(Get-Random $Participle1) in the $(Get-Random $place2) ... `
 $(Get-Random $properNoun1) is $end, $end, $end."
